@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    padding: 20%;
+    padding:20%;
     text-align: center;
 }
 
@@ -44,7 +44,7 @@ body {
     border-radius: 8px;
     /* line-height: 50px; */
     /* cursor: pointer; */
-    transition: 0.3s;
+    transition: 0.3s ease-in;
 }
 .btn-link:hover{
     color: #FF5959;
@@ -52,6 +52,48 @@ body {
     /* cursor: pointer; */
     border: 2px solid  #d41414;
 }
-
-
 /* header section */
+/* money section */
+.wrapper-2{
+    text-align: center;
+    padding: 80px 0;
+}
+.sceond-head-text{
+    font-size: 45px;
+    color: #121212;   
+}
+.paragraph{
+    font-size: 15px;
+    color: #707070;
+}
+.rich-text{
+    width: 60%;
+    margin: 0 auto; 
+   
+
+}
+.money{
+    display: flex;
+    align-items: center;
+    
+}
+.ammount:nth-child(2){
+    background-color: rgb(246, 238, 238);
+    color: tomato !important;
+    border: 3px solid tomato;
+    border-radius: 6px;
+    width: 100px;
+    height: 70px;
+    padding-top: 40px !important;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ammount{
+    /* background-color: #d41414; */
+    font-size: 35px;
+    margin-right: 80px;
+    
+}
+/* money section */
