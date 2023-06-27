@@ -37,6 +37,7 @@ body {
     
 }
 .btn-link{
+    /* text-align: center; */
     color: white;
     text-decoration: none;
     background-color: #FF5959;
@@ -63,8 +64,9 @@ body {
     color: #121212;   
 }
 .paragraph{
-    font-size: 15px;
+    font-size: 16px;
     color: #707070;
+    line-height: 25px;
 }
 .rich-text{
     width: 60%;
@@ -97,3 +99,11 @@ body {
     
 }
 /* money section */
+/* input section */
+.d-section{
+    margin-top: -80px;
+}
+.btn-2{
+    padding-top: 40px;
+}
+/* input section */
