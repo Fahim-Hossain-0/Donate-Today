@@ -109,9 +109,16 @@ body {
 /* input section */
 
 /* card section  */
+.wrapper-3{
+    width: 80%;
+    margin: 0 auto;
+}
 .card{
-width: 33.3;
-padding: 0 25px;
+    
+    margin: 0 15px;
+    /* width: 33.3; */
+    padding: 0 25px;
+    /* align-content: space-between; */
 /* text-align: center; */
 /* align-self: start; */
 /* align-self: center; */
@@ -123,12 +130,18 @@ border-radius: 5px;
 
 
 }
+.card-color-1{
+    background-color:#FFF4D6;
+}
+.card-color-2{
+    background-color: #FF59591A;
+}
 .box{
     margin: 30% 0;
     
 }
 .card-img{
-  /* align-self: flex-start; */
+  
 
 }
 .card-head{
