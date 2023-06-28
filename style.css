@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -194,3 +198,15 @@ border-radius: 5px;
 }
 
 /* about section */
+.footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #121212;
+}
+.footer h2{
+    color: #FF5959;
+}
+.footer p{
+    margin-top: 20px; 
+    color:white;
+}
