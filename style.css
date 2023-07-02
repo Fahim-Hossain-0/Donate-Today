@@ -17,6 +17,7 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -198,6 +199,64 @@ border-radius: 5px;
 }
 
 /* about section */
+/* input fill  */
+.container {
+    /* width: 60%; */
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+    /* overflow: hidden; */
+
+}
+
+.form {
+    /* padding-top: 20px; */
+    padding-bottom: 80px;
+    /* padding: 0px; */
+}
+
+.form-section {
+    text-align: center;
+    margin-left: 260px;
+    
+   
+   
+    
+
+}
+
+.form input {
+    width: 35%;
+    float: left;
+    /* margin-right: 40px; */
+    padding: 15px 30px;
+    background-color: #BEBDBC;
+    border-radius: 5px;
+    
+    border: none;
+}
+.form input:focus{
+    outline: none;
+}
+
+.subscribe {}
+
+.u-btn {
+    width: 10%;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 13px 40px;
+    /* border: 1px solid blue; */
+    float: left;
+    transition: .3s;
+    
+}
+.u-btn:hover{
+    background-color: black;
+    color: white;
+}
+/* input fill  */
+/* footer */
 .footer{
     padding: 50px;
     text-align: center;
@@ -210,3 +269,4 @@ border-radius: 5px;
     margin-top: 20px; 
     color:white;
 }
+/* footer */
